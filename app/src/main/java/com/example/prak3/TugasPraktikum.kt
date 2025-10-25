@@ -151,6 +151,4 @@ fun TugasPraktikum(modifier: Modifier) {
             }
         }
 
-
-
 }
