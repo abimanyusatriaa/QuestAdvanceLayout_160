@@ -10,5 +10,7 @@
     <string name="deskripsi">Saya seorang mahasiswa UMY</string>
     <string name="ig">"@abimanyu.sat"</string>
     <string name="sec">Privasi</string>
-
+    <string name="riwayat">Riwayat Transaksi</string>
+    <string name="setting">Pengaturan</string>
+    <string name="copy2">2025, Abimanyu Satria</string>
 </resources>
