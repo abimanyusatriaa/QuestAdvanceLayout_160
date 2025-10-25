@@ -52,5 +52,18 @@ fun TugasPraktikum(modifier: Modifier) {
         )
         Spacer(modifier = Modifier.height(17.dp))
 
+        // Deretan ikon media sosial di bawah foto
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            val iconSize = 30.dp
+
+            Image(
+                painter = painterResource(id = R.drawable.instagram),
+                contentDescription = "Instagram",
+                modifier = Modifier.size(iconSize)
+            )
+
 
 }
