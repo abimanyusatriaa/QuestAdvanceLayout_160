@@ -74,6 +74,13 @@ fun TugasPraktikum(modifier: Modifier) {
                 contentDescription = "Facebook",
                 modifier = Modifier.size(iconSize)
             )
+            Image(
+                painter = painterResource(id = R.drawable.github2),
+                contentDescription = "Facebook",
+                modifier = Modifier.size(iconSize)
+            )
+        }
+
 
 
 }
