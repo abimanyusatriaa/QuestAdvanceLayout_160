@@ -102,5 +102,13 @@ fun TugasPraktikum(modifier: Modifier) {
 
         Spacer(modifier = Modifier.height(height = 22.dp))
 
-
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 12.dp, vertical = 6.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.DarkGray
+            ),
+            shape = RoundedCornerShape(24.dp)
+        )
 }
