@@ -131,6 +131,16 @@ fun TugasPraktikum(modifier: Modifier) {
                             .size(iconSize)
                             .padding(4.dp)
                     )
+                    Spacer(modifier = Modifier.width(16.dp))
+
+                    Text(
+                        text = stringResource(id = R.string.sec),
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.Default,
+                        color = Color.White
+                    )
+                }
+
 
 
 }
