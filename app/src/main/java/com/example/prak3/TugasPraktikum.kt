@@ -210,6 +210,38 @@ fun TugasPraktikum(modifier: Modifier) {
                 containerColor = Color.DarkGray
             ),
             shape = RoundedCornerShape(24.dp)
-        )
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween // jarak kiri-kanan
+            ) {
+                // Bagian kiri (ikon + teks)
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    val iconSize = 50.dp
+
+                    Image(
+                        painter = painterResource(id = R.drawable.settings),
+                        contentDescription = "Privasi",
+                        modifier = Modifier
+                            .size(iconSize)
+                            .padding(4.dp)
+                    )
+
+                    Spacer(modifier = Modifier.width(16.dp))
+
+                    Text(
+                        text = stringResource(id = R.string.setting),
+                        fontSize = 20.sp,
+                        fontFamily = FontFamily.Default,
+                        color = Color.White
+                    )
+                }
+
+
 
 }
