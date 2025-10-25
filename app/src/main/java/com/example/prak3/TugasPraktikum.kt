@@ -37,5 +37,20 @@ fun TugasPraktikum(modifier: Modifier) {
             .padding(top = 50.dp)
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ) {
+        val foto = painterResource(id = R.drawable.profil)
+
+        // Foto profil bulat di tengah
+        Image(
+            painter = foto,
+            contentDescription = "Foto Profil",
+            modifier = Modifier
+                .size(165.dp)
+                .clip(CircleShape)
+
+
+        )
+        Spacer(modifier = Modifier.height(17.dp))
+
+
 }
