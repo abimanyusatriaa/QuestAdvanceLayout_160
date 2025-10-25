@@ -159,5 +159,12 @@ fun TugasPraktikum(modifier: Modifier) {
                 containerColor = Color.DarkGray
             ),
             shape = RoundedCornerShape(24.dp)
-        )
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween // jarak kiri-kanan
+            )
 }
