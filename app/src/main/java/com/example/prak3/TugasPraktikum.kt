@@ -242,6 +242,26 @@ fun TugasPraktikum(modifier: Modifier) {
                     )
                 }
 
+                // Bagian kanan (ikon tambahan)
+                Image(
+                    painter = painterResource(id = R.drawable.panah),
+                    contentDescription = "Arah",
+                    modifier = Modifier
+                        .size(45.dp)
+                )
+            }
+        }
 
-
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(id = R.string.copy2),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 30.dp)
+            )
+        }
+    }
 }
