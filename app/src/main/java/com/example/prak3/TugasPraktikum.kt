@@ -117,5 +117,20 @@ fun TugasPraktikum(modifier: Modifier) {
                     .padding(horizontal = 16.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween // jarak kiri-kanan
-            )
+            ) {
+                // Bagian kiri (ikon + teks)
+                Row(
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    val iconSize = 50.dp
+
+                    Image(
+                        painter = painterResource(id = R.drawable.privasi),
+                        contentDescription = "Privasi",
+                        modifier = Modifier
+                            .size(iconSize)
+                            .padding(4.dp)
+                    )
+
+
 }
