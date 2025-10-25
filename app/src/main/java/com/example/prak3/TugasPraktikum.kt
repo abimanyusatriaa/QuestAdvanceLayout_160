@@ -88,7 +88,10 @@ fun TugasPraktikum(modifier: Modifier) {
             fontSize = 30.sp,
             fontWeight = FontWeight.Bold
         )
-
-
+        Spacer(modifier = Modifier.height(height = 7.dp))
+        Text(
+            text = stringResource(id = R.string.ig),
+            fontSize = 18.sp
+        )
 
 }
