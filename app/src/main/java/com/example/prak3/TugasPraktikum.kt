@@ -93,5 +93,12 @@ fun TugasPraktikum(modifier: Modifier) {
             text = stringResource(id = R.string.ig),
             fontSize = 18.sp
         )
+        Spacer(modifier = Modifier.height(height = 11.dp))
+        Text(
+            text = stringResource(id = R.string.deskripsi),
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold
+        )
+
 
 }
