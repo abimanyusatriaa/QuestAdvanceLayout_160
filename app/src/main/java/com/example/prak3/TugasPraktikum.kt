@@ -81,6 +81,14 @@ fun TugasPraktikum(modifier: Modifier) {
             )
         }
 
+        Spacer(modifier = Modifier.height(17.dp))
+
+        Text(
+            text = stringResource(id = R.string.nama),
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold
+        )
+
 
 
 }
